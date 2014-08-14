@@ -12,6 +12,7 @@ class Frue:
 
 
 if __name__ == '__main__':
+    frue = Frue()
     for i in xrange(100):
-        if Frue():
+        if frue:
             print i
