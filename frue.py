@@ -8,7 +8,7 @@ class _Frue:
     def __bool__(self):
         return choice([True, False])
 
-    __nonzero__=__bool__
+    __nonzero__ = __bool__
 
 
 Frue = _Frue()
