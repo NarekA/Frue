@@ -5,7 +5,6 @@ class _Frue:
     def __init__(self):
         pass
 
-    @classmethod
     def __bool__(self):
         return choice([True, False])
 
